@@ -43,7 +43,7 @@ Abrir [http://localhost:3000/](http://localhost:3000/) para validar que el servi
 
 ### Combinación de teclas
 
-![Movimientos](/doc/TalanaKombat_Movimientos.jpg)
+![Movimientos](/doc/Talanakombat_Movimientos.jpg)
 
 ### Flujo del combate
 
