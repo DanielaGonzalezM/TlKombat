@@ -3,8 +3,8 @@
 ## Para clonar y configurar el proyecto
 
 ```
-git clone git@github.com:DanielaGonzalezM/TalanaKombat.git
-cd TalanaKombat
+git clone git@github.com:DanielaGonzalezM/TlKombat.git
+cd TlKombat
 ```
 Preferentemente se debe configurar el archivo **.env**, para ello, solo se debe copiar del archivo **example.env** que se encuentra en la raíz.
 
@@ -41,6 +41,12 @@ Abrir [http://localhost:3000/](http://localhost:3000/) para validar que el servi
 
 ## Acerca del juego
 
+### Talana Kombat JRPG
+Talana Kombat es un juego donde 2 personajes se enfrentan hasta la muerte. Cada personaje
+tiene 2 golpes especiales que se ejecutan con una combinación de movimientos + 1 botón de
+golpe.
+
+
 ### Combinación de teclas
 
 ![Movimientos](/doc/Talanakombat_Movimientos.jpg)
@@ -67,9 +73,9 @@ Se puede modificar el modo de juego.
 
 Modos de juego disponibles:
 
-* default  - Corresponde a los personajes solicitados en la prueba
-* hardcore - Corresponde a un modo agregado con temática de Dragon Ball
-* pokemon  - Corresponde a un modo agregado con temática de Pokémon
+* **default**  - Corresponde a los personajes solicitados en la prueba
+* **hardcore** - Corresponde a un modo agregado con temática de Dragon Ball
+* **pokemon**  - Corresponde a un modo agregado con temática de Pokémon
 
 Si se quiere agregar un nuevo modo de juego, bastaría con crear su fightRepository correspondiente, sus variables en constants.js. y finalmente agregar el nuevo modo en el siguiente archivo
 src\infrastructure\config\service-locator.js

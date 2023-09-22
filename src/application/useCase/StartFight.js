@@ -78,10 +78,10 @@ const getOrderedPlayers = (player1, player2) => {
     const { moves: mov1, hits: hit1 } = player1;
     const { moves: mov2, hits: hit2 } = player2;
 
-    const contMoves1 = mov1.join("").length
-    const contHit1 = hit1.join("").length
-    const contMoves2 = mov2.join("").length
-    const contHit2 = hit2.join("").length
+    const contMoves1 = mov1.join("").length;
+    const contHit1 = hit1.join("").length;
+    const contMoves2 = mov2.join("").length;
+    const contHit2 = hit2.join("").length;
 
     let comb1 = contMoves1 + contHit1;
     let comb2 = contMoves2 + contHit2;
